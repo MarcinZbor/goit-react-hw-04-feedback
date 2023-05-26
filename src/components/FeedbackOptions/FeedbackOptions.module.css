@@ -1,0 +1,8 @@
+.btn{
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 5px;
+    margin: 0 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
