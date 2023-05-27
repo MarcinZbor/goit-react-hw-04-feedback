@@ -29,6 +29,7 @@ const [feedback, setFeedback] = useState({
 
 const onLeaveFeedback = type => {
   setFeedback(prevState => ({
+    ...prevState,
     [type] : prevState[type] +1
   }))
 }
